@@ -11,7 +11,7 @@ Mseq mseq(N);
 
 for (int i = 0; i < (1 << N) -1; i++)
 {
-    std::cout << mseq.update() << " ";
+    std::cout << (int)mseq.update() << " ";
 }
 std::cout << std::endl;
 ```
