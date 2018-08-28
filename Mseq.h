@@ -23,7 +23,7 @@ class Mseq
     std::vector<uint8_t> a;
 
   public:
-    Mseq(uint8_t _n = 2);
+    Mseq(uint8_t _n);
     void reset();
     void reset(uint8_t _n);
     uint8_t update();

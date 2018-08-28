@@ -7,13 +7,13 @@ M系列信号を生成するライブラリ
 N bitシフトレジスタから生成されるM系列信号を1周期分(2^N-1)生成するサンプルコード
 
 ```cpp:example.cpp
-    Mseq mseq(N);
+Mseq mseq(N);
 
-    for (int i = 0; i < (1 << N) -1; i++)
-    {
-        std::cout << mseq.update() << " ";
-    }
-    std::cout << std::endl;
+for (int i = 0; i < (1 << N) -1; i++)
+{
+    std::cout << mseq.update() << " ";
+}
+std::cout << std::endl;
 ```
 
 他の機能については実装(Mseq.cpp)を参照
